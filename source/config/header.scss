@@ -1,0 +1,15 @@
+@use './variaveis.scss';
+
+header {
+    background-color: variaveis.$primary-color;
+    position:sticky;
+    top:0;
+    left:0;
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 0;
+    }    
+}
